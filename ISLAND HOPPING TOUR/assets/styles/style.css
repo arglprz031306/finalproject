@@ -1,0 +1,84 @@
+/* 
+-- Responsive Breakpoints
+sm: 640px - mobile phone size
+md: 768px - Tablet size
+lg: 1024px - Laptop standard size
+xl: 1280px -- larger wide desktop size
+*/
+
+/* Reusable Design */
+@import "button.css";
+@import "card.css";
+
+/* Section Design */
+@import "navbar.css";
+@import "hero-banner.css";
+@import "service.css";
+@import "contact.css";
+@import "thank-you.css";
+@import "footer.css";
+
+
+body {
+ background-image: url("https://t4.ftcdn.net/jpg/02/70/25/29/360_F_270252931_bHV05iyLL4pZTnzH5S78Pc8dMpXh1mMS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+    text-align: justify;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container .foot {
+  color: black;
+}
+
+.container .foot-1 {
+  color: black;
+}
+
+.container .foot-3 {
+  color: black;
+}
+.container .foot-4 {
+  color: black;
+}
+.container .foot-5 {
+  color: black;
+}
+h2 {
+  color: white
+}
+h3 {
+  font-size: 20px;
+}

@@ -1,0 +1,37 @@
+
+
+#service {
+  height: 100%;
+  background: #F1F1F1;
+  padding: 72px 20px;
+  background-image: url("https://t4.ftcdn.net/jpg/02/70/25/29/360_F_270252931_bHV05iyLL4pZTnzH5S78Pc8dMpXh1mMS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-heading {
+  text-align: center;
+  font-size: 30px;
+
+  
+}
+
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+
+.service-list {
+  display: flex;
+  gap: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-list {
+    flex-direction: column;
+  }
+}
